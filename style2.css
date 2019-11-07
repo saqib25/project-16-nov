@@ -34,8 +34,8 @@
     text-transform: uppercase;
     font-size: 12px;
     color:black;
-    background-color: green;
-    border: 1px solid green;
+    background-color:#8DC63F;
+    border: 1px solid #8DC63F ;
 }
 .contact li{
     display:inline-block;
@@ -90,7 +90,7 @@ header img{
 /* ----- show case start---- */
 
 .showcase{
-    background: green;
+    background:#8DC63F;
     height:250px;
 }
 .showcase .h{
@@ -101,6 +101,7 @@ header img{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: bold;
+    font-size: 35px;
 }
 .showcase .p{
     padding-top: 2px;
@@ -130,59 +131,52 @@ header img{
 /* our advantages */
 
 .our-advantages{
-    height:800px;
-    background: palegoldenrod;
+    background:white;
+    height:450px;
 }
-.head-para{
-    padding-left: 450px;
-    padding-top: 10px;
+.our-advantages .our-adv-head{
+    text-align: center;
 }
-.head-para h1{
+.our-adv-head h1{
+    padding-right:90px;
+    font-size: 35px;
     font-weight: bold;
-    font-size: 30px;
     text-transform: uppercase;
-    color:black;
-    letter-spacing: 4px;
+    padding-top: 15px;
 }
-.head-para span{
-    color:green;
-}
-
-.para{
-    padding-top: 2px;
-    margin:0 auto;
-}
-.para p{
-    margin:0 400px;
-    text-align: left;
-    font-weight: bold;
+.our-adv-head p{
+    padding-left:90px;
+    text-align:center;
     color:gray;
 }
-
- /* .wrapper{ 
+.advimg{
     display:inline-block;
-    margin:10px;
+    margin-top: 20px;
+    height:200px;
+    width:300px;
+    margin-top: 100px;
+    padding-left:33px;
+    text-align: center;
 }
-.box{
-    display: inline-block;
-    max-width: 300px;
-    max-height: 700px;
+.advimg p{
+    color:gray;
 }
-.wrapper img{
-    width:70px;
-    height:60px;
-}  */
+.advimg h5{
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 /* -----about-us------ */
 .ab-bg{
-    background:url(../assighnment16nov/images/about.jpeg);
+    background:url(../assighnment16nov/images/about_us.png);
     background-size:cover;
     width:100%;
     background-repeat: no-repeat;
     background-position:center;
 }
 .about-us{
-    height:385px;
+    height:500px;
     margin:10px;
 }
 .section{
@@ -190,28 +184,30 @@ header img{
 }
 .section h1{
     text-align: center;
-    padding-top: 30px;
-    padding-right:8px;
+    padding-top: 15px;
+    margin-right: 15px;
     text-transform: uppercase;
     font-size: 30px;
     font-weight: bold;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
 
 }
 .section h1 span{
-    color:green;
+    color:#8DC63F;
 }
 .section p{
     margin-right:1000px;
-    color:white;
+    color:black;
 }
 .button{
-    margin-top:3px;
+    margin-top:1px;
     padding-left:25px;
-    padding-bottom: 8px;
+    padding-bottom:18px;
 }
 .button #btn{
+    margin-bottom:40px;
     padding:5px;
+    margin-left:10px;
     border-radius: 100px;
     color:black;
     background-color: orange;
@@ -237,12 +233,13 @@ header img{
     letter-spacing: 4px;
 }
  h1 span{
-    color:green;
+    color:#8DC63F;
 }
 .para p{
     margin:0 440px;
     text-align: left;
     font-weight: bold;
+    color:gray;
 }
 
 .container{
@@ -271,6 +268,8 @@ header img{
     font-size:14px;
     padding-top: 5px;
     padding-left:10px;
+    text-align: center;
+    color:gray;
 }
 #btn3{
     padding-top:5px;
@@ -281,7 +280,7 @@ header img{
 #button{
     border:none;
     color:black;
-    background-color:green;
+    background-color:#8DC63F;
     padding:5px;
     border-radius: 50px;
     text-transform: uppercase;
@@ -311,7 +310,7 @@ header img{
     font-weight: bold;
 }
 .portofolio span{
-    color:green;
+    color:#8DC63F;
 }
 .portofolio nav{
     margin:10px;
