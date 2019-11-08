@@ -1,0 +1,15 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    background-color: green;
+    color:white;
+    height:400px;
+}
+.box-cont{
+    width:25%;
+    height:100px;
+    background-color:orange;
+    color:black;
+}
