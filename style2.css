@@ -288,6 +288,8 @@ header img{
     padding-left:70px;
 }
 
+
+
 #button{
     border:none;
     color:black;
@@ -296,15 +298,17 @@ header img{
     border-radius: 50px;
     text-transform: uppercase;
 }
+
 /* ------- our service end----- */
 
 /* ----portofolio--- */
 
 .portofolio{
-    height:500px;
+    height:450px;
     background:black;
     color:white;
     text-align: center;
+    width:100%;
 }
 .portofolio h1{
     text-align: center;
@@ -316,7 +320,7 @@ header img{
     letter-spacing: 4px;
 }
 .portofolio p{
-    margin:0 440px;
+    margin:0 400px;
     text-align: left;
     font-weight: bold;
     width:550px;
@@ -324,15 +328,14 @@ header img{
 .portofolio span{
     color:#8DC63F;
 }
-.portofolio nav{
-    margin:10px;
-}
+
 .portofolio li{
     list-style: none;
     text-decoration: none;
     padding:5px;
     display: inline-block;
     font-weight: bold;
+    padding-right:10px;
 }
 .portofolio li a{
     color:white;

@@ -1,0 +1,41 @@
+.people-about-us{
+    width: 100%;
+    height:90vh;    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+}
+#pba-h1{
+    text-align: center;
+}
+#pba-p{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    margin: 50px 15px 0 15px;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35vh 35vh;
+
+}
+.people-about-us-box{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100px;
+
+}
+.people-about-us-box img{
+    width: 150px;
+    height: 100px;
+    float: left;
+
+}
+.b{
+    border-bottom: 1px solid black;
+}
+.l{
+    border-left: 1px solid black;
+}

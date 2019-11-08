@@ -15,6 +15,7 @@
     font-weight: bold;
     text-transform: uppercase;
     padding-top:15px;
+    letter-spacing: 4px;
 }
 .our-process h1 span{
     color:#8DC63F;
@@ -24,6 +25,7 @@
     font-weight: bold;
     text-align: center;
     color:gray;
+    font-weight: bold;
 }
 .box{
     padding-top: 15px;
@@ -50,7 +52,8 @@
 .box-img p{
     font-size: 14px;
     padding-top: 5px;
-    color:lightgray;
+    color:gray;
+    font-weight: bold;
 }
 /* ----our process end */
 
@@ -59,41 +62,56 @@
 /*--------------- ----people about us start------------ */
 
 .people-about-us{
-    height:300px;
-    background-color:lightgray;
-    color:black;
-}
-.people-about-us h1{
-    font-size: 25px;
-  font-weight: bold;
-  text-transform: uppercase;
-  padding-top: 5px;
-  text-align:center;
-  letter-spacing: 4px;
-}
-.people-about-us h1 span{
-    color:#8DC63F;
-}
-.people-about-us p{
-    text-align: center;
-    padding-top: 4px;
+    width: 100%;
+    height:100vh;    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
     font-weight: bold;
 }
-/* .container{ 
-        border:1px solid black;
-    height:400px;
-    display:inline-block;
+#pba-h1{
+    text-align: center;
+    padding-top: 15px;
+    letter-spacing: 4px;
 }
-.div1{
-    border:1px solid black;
-    height:250px;
-    width:400px;
-    vertical-align:text-top;
+.people-about-us span{
+    color:#8DC63F;
 }
-.container img{
-    width:100px;
-    height:100px;
- } */
+#pba-p{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    padding-top:10px;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    /* margin:70px 0px 60px 25px; */
+    display: grid;
+    padding-top:70px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35vh 35vh;
+
+}
+.people-about-us-box{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 100px;
+    padding-top:14px;
+    padding-left:20px;
+
+}
+.people-about-us-box img{
+    width: 120px;
+    height: 100px;
+    float: left;
+    padding-left:25px;
+
+}
+.b{
+    border-bottom: 1px solid black;
+}
+.l{
+    border-left: 1px solid black;
+}
 
  
  /* -------------our skills start------------ */
@@ -102,6 +120,8 @@
     background-color:white;
     color:gray;
     height:100px;
+    font-weight: bold;
+    width:100%;
 }
 .our-skills h1{
     font-size: 25px;
@@ -115,6 +135,7 @@
     text-align: center;
     padding-top: 4px;
     font-weight: bold;
+    color:black;
 }
 .our-skills span{
     color:#8DC63F;
@@ -124,7 +145,10 @@
     width:150px;
     height:150px;
 }
-
+.our-skills-imag{
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
 .our-skill-box{
     display:inline-block;
     width:200px;
@@ -147,6 +171,9 @@
 .start-container{
     background-color:#8DC63F;
     height:250px;
+    color:black;
+    font-weight: bold;
+    width:100%;
 
 }
 .start-container h3{
@@ -192,9 +219,15 @@
 
 /* ----- new project end------ */
 
+
+/* ------ our contact start------ */
+
 .our-contact{
-    height:400px;
+    height:100px;
     padding-top: 10px;
+    font-weight: bold;
+    color:black;
+    width:100%;
 }
 .our-contact h1{
     font-size: 25px;
@@ -210,7 +243,7 @@
     font-weight: bold;
     width:800px;
     margin-left:300px;
-    color:gray;
+    color:black;
 }
 .our-contact span{
     color:#8DC63F;
@@ -237,28 +270,14 @@
     text-decoration: none;
     padding-right: 8px;
 }
-
-.map{
-    margin-top: 15px;
-    padding-left:25px;
+iframe{
+    width:100%;
+    padding-top:20px;
 }
+
+
 
 /* ------ NEW PROJEXCT END---- */
 
 /* ---footer start------ */
 
-.footer{
-    height:500px;
-    background-color: #8DC63F;
-}
-.logo img{
-    width:150px;
-    height:100px;
-    padding-top: 15px;
-}
-.logo p{
-    margin-right:450px;
-}
-.footer li{
-    list-style:none;
-}
