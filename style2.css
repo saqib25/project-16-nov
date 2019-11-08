@@ -138,7 +138,7 @@ header img{
 
 .our-advantages{
     background:white;
-    height:450px;
+    height:400px;
 }
 .our-advantages .our-adv-head{
     text-align: center;
@@ -163,7 +163,7 @@ header img{
     margin-top: 20px;
     height:200px;
     width:300px;
-    margin-top: 100px;
+    margin-top: 50px;
     padding-left:33px;
     text-align: center;
 }
@@ -249,6 +249,8 @@ header img{
     text-align: left;
     font-weight: bold;
     color:gray;
+    width: 390px;
+    padding-left:60px;
 }
 
 .container{
