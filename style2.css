@@ -303,7 +303,7 @@ header img{
 
 /* ----portofolio--- */
 
-.portofolio{
+ .portofolio{ 
     height:450px;
     background:black;
     color:white;
@@ -358,4 +358,4 @@ header img{
 .logos-img img{
     width:200px;
     height:150px;
-}
+} 
